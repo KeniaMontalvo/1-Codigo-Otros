@@ -1,3 +1,6 @@
+/*Consultamos una API, pasándole un nombre de usuario para que devuelva información del usuario que le solicitamos, mostrándose en pantalla su nombre, link de su blog y ubicación.
+*/
+
 const baseEndpoint = 'https://api.github.com';
 const usersEndpoint = `${baseEndpoint}/users`;
 const $n = document.querySelector('.name'); //se agregó el . porque es una clase
